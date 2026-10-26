@@ -1,0 +1,386 @@
+[
+  {
+    "shot": "door",
+    "frame": 0,
+    "src": "/images/film-hd/door-00.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 334018
+  },
+  {
+    "shot": "door",
+    "frame": 1,
+    "src": "/images/film-hd/door-01.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 335178
+  },
+  {
+    "shot": "door",
+    "frame": 2,
+    "src": "/images/film-hd/door-02.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 329370
+  },
+  {
+    "shot": "door",
+    "frame": 3,
+    "src": "/images/film-hd/door-03.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 336860
+  },
+  {
+    "shot": "door",
+    "frame": 4,
+    "src": "/images/film-hd/door-04.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 355644
+  },
+  {
+    "shot": "door",
+    "frame": 5,
+    "src": "/images/film-hd/door-05.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 335106
+  },
+  {
+    "shot": "door",
+    "frame": 6,
+    "src": "/images/film-hd/door-06.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 343714
+  },
+  {
+    "shot": "door",
+    "frame": 7,
+    "src": "/images/film-hd/door-07.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 329786
+  },
+  {
+    "shot": "door",
+    "frame": 8,
+    "src": "/images/film-hd/door-08.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 355864
+  },
+  {
+    "shot": "door",
+    "frame": 9,
+    "src": "/images/film-hd/door-09.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 344282
+  },
+  {
+    "shot": "door",
+    "frame": 10,
+    "src": "/images/film-hd/door-10.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 348398
+  },
+  {
+    "shot": "door",
+    "frame": 11,
+    "src": "/images/film-hd/door-11.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 349926
+  },
+  {
+    "shot": "door",
+    "frame": 12,
+    "src": "/images/film-hd/door-12.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 344546
+  },
+  {
+    "shot": "door",
+    "frame": 13,
+    "src": "/images/film-hd/door-13.webp",
+    "width": 1672,
+    "height": 940,
+    "bytes": 347254
+  },
+  {
+    "shot": "door",
+    "frame": 14,
+    "src": "/images/film-hd/door-14.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 339756
+  },
+  {
+    "shot": "door",
+    "frame": 15,
+    "src": "/images/film-hd/door-15.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 329276
+  },
+  {
+    "shot": "espresso",
+    "frame": 0,
+    "src": "/images/film-hd/espresso-00.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 226794
+  },
+  {
+    "shot": "espresso",
+    "frame": 1,
+    "src": "/images/film-hd/espresso-01.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 225376
+  },
+  {
+    "shot": "espresso",
+    "frame": 2,
+    "src": "/images/film-hd/espresso-02.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 219952
+  },
+  {
+    "shot": "espresso",
+    "frame": 3,
+    "src": "/images/film-hd/espresso-03.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 243898
+  },
+  {
+    "shot": "espresso",
+    "frame": 4,
+    "src": "/images/film-hd/espresso-04.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 239846
+  },
+  {
+    "shot": "espresso",
+    "frame": 5,
+    "src": "/images/film-hd/espresso-05.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 222680
+  },
+  {
+    "shot": "espresso",
+    "frame": 6,
+    "src": "/images/film-hd/espresso-06.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 232684
+  },
+  {
+    "shot": "espresso",
+    "frame": 7,
+    "src": "/images/film-hd/espresso-07.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 230350
+  },
+  {
+    "shot": "espresso",
+    "frame": 8,
+    "src": "/images/film-hd/espresso-08.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 242110
+  },
+  {
+    "shot": "espresso",
+    "frame": 9,
+    "src": "/images/film-hd/espresso-09.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 228048
+  },
+  {
+    "shot": "espresso",
+    "frame": 10,
+    "src": "/images/film-hd/espresso-10.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 245778
+  },
+  {
+    "shot": "espresso",
+    "frame": 11,
+    "src": "/images/film-hd/espresso-11.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 238128
+  },
+  {
+    "shot": "espresso",
+    "frame": 12,
+    "src": "/images/film-hd/espresso-12.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 234172
+  },
+  {
+    "shot": "espresso",
+    "frame": 13,
+    "src": "/images/film-hd/espresso-13.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 233652
+  },
+  {
+    "shot": "espresso",
+    "frame": 14,
+    "src": "/images/film-hd/espresso-14.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 223152
+  },
+  {
+    "shot": "espresso",
+    "frame": 15,
+    "src": "/images/film-hd/espresso-15.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 230092
+  },
+  {
+    "shot": "serve",
+    "frame": 0,
+    "src": "/images/film-hd/serve-00.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 233844
+  },
+  {
+    "shot": "serve",
+    "frame": 1,
+    "src": "/images/film-hd/serve-01.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 203858
+  },
+  {
+    "shot": "serve",
+    "frame": 2,
+    "src": "/images/film-hd/serve-02.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 209472
+  },
+  {
+    "shot": "serve",
+    "frame": 3,
+    "src": "/images/film-hd/serve-03.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 199316
+  },
+  {
+    "shot": "serve",
+    "frame": 4,
+    "src": "/images/film-hd/serve-04.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 190346
+  },
+  {
+    "shot": "serve",
+    "frame": 5,
+    "src": "/images/film-hd/serve-05.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 181862
+  },
+  {
+    "shot": "serve",
+    "frame": 6,
+    "src": "/images/film-hd/serve-06.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 186676
+  },
+  {
+    "shot": "serve",
+    "frame": 7,
+    "src": "/images/film-hd/serve-07.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 216028
+  },
+  {
+    "shot": "serve",
+    "frame": 8,
+    "src": "/images/film-hd/serve-08.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 188604
+  },
+  {
+    "shot": "serve",
+    "frame": 9,
+    "src": "/images/film-hd/serve-09.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 165522
+  },
+  {
+    "shot": "serve",
+    "frame": 10,
+    "src": "/images/film-hd/serve-10.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 185346
+  },
+  {
+    "shot": "serve",
+    "frame": 11,
+    "src": "/images/film-hd/serve-11.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 173842
+  },
+  {
+    "shot": "serve",
+    "frame": 12,
+    "src": "/images/film-hd/serve-12.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 180774
+  },
+  {
+    "shot": "serve",
+    "frame": 13,
+    "src": "/images/film-hd/serve-13.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 158978
+  },
+  {
+    "shot": "serve",
+    "frame": 14,
+    "src": "/images/film-hd/serve-14.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 177430
+  },
+  {
+    "shot": "serve",
+    "frame": 15,
+    "src": "/images/film-hd/serve-15.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 160838
+  }
+]

@@ -1,67 +1,44 @@
-# Daybreak Coffee Club
+# daybreakcoffeeclub
 
-A colorful, twelve-chapter coffee-shop website built with Next.js, React, Three.js / React Three Fiber, and GSAP ScrollTrigger. All source files and final artwork live in this project folder.
+A bright photographic coffee-shop concept in Next.js and JavaScript/JSX. The active homepage uses HTML images, GSAP ScrollTrigger and Lenis, with no canvas, WebGL or loaded 3D model.
 
-## Run locally
+## Local development
 
-Requires Node.js 20.9+ (tested with Node 24).
+Run `npm install`, `npm run dev`, `npm test`, and `npm run build`.
+Open http://localhost:3000. Node 24 was used locally. All source, images and fonts are in the project. No TypeScript build step is required.
 
-```sh
-npm install
-npm run dev
-```
+## The scroll film
 
-Open http://localhost:3000. For an optimized version, use `npm run build` followed by `npm start`.
+Three generated photographic actions form a reversible 48-frame edit: the cafe door opens, espresso extracts into a coral cup, then a hand serves the finished cup and withdraws.
 
-## The visual experience
+Scroll selects a decoded image directly. Shot boundaries use cuts, not fades. Small continuous image-scale changes provide camera movement between frame changes. Nothing advances on a timer. Lenis uses GSAP's ticker to keep content and frames synchronized. Touch scrolling keeps native momentum. Reduced motion disables easing and zoom and shows one still per shot.
 
-The primary page uses seven original AI-generated photographic coffee scenes, two generated depth maps, and twelve distinct camera compositions. GSAP maps each real section position to a reversible timeline. Three.js samples the photos and depth maps in a custom shader to produce restrained depth parallax, scroll-controlled zooming, pointer movement, and soft transitions.
+The active set contains 48 individually regenerated photographs at 1672 x 940 pixels or larger, encoded as WebP without resizing. Original PNGs are saved inside `assets/film-hd`; the website uses `public/images/film-hd`. The previous 412 x 232 contact-sheet extracts remain archived in `public/images/film` and are no longer used by the player. At most eight decoded images are retained by the player, with three concurrent decodes.
 
-This is **photo-based 2.5D scrollytelling**, not video footage or a physically simulated fluid sequence. Individual photographs show key brewing moments; zoom, depth and transitions animate between them. It does not generate intermediate video frames of hands or liquid moving. The earlier procedural full-3D renderer is retained in `src/components/CoffeeScene.tsx` as a reusable alternative, but the requested photographic treatment is the active homepage.
+Motion limitation: these are individually generated keyframes, not temporally consistent video footage. Compositional differences and stepped motion remain. This is an image-sequence prototype, not seamless 60fps video or a continuous 3D camera journey. High-resolution footage with consistent motion is required for that quality. Update src/lib/film.js and the manifest when replacing the sequence or changing frame count.
 
-The canvas renders on demand while scroll/pointer state changes. Local WebP photos, mobile variants, and bundled fonts avoid remote runtime asset dependencies. An HTML photograph remains visible if WebGL fails. The Motion control disables parallax and smooth transitions; system reduced-motion preference is respected.
+## Files
 
-## Included interactions
+- src/components/CinematicExperience.jsx: centered content, navigation, motion control, menu and local order dialog.
+- src/components/journey/FrameSequence.jsx: demand-driven HTML image player, decode cache and bounded background loading.
+- src/lib/film.js: reversible edit and shot boundaries.
+- src/lib/journey.js: scene labels, sample menu and business configuration.
+- src/app/film.css: image treatment and responsive layout.
+- assets/film/: original generated contact sheets.
+- assets/film-hd/: 48 full-size generated PNG source frames.
+- public/images/film-hd/: 48 active WebP frames and their resolution/size manifest.
+- scripts/prepare-film-hd.mjs: validates source resolution and encodes the active set. Run `node scripts/prepare-film-hd.mjs` to rebuild it.
+- docs/film-prompts.md: built-in image-generation prompts and provenance.
+- scripts/prepare-film.mjs: deterministic sheet extraction, border trimming and WebP conversion. Run `node scripts/prepare-film.mjs` to rebuild from saved sheets.
 
-- Twelve scroll chapters, chapter navigation, progress indicator, and replay.
-- Native accessible menu dialog, category filters, Escape dismissal, and modal focus management.
-- Oat/dairy/almond selection carried through the latte description. The photographs themselves are not regenerated when milk changes.
-- Responsive navigation, disclosure questions, and reduced-motion control.
+Earlier photographic/Three.js prototypes and the supplied cup model are preserved but not imported by the active page. The homepage does not load those models or Three.js.
 
-## Customize
+## Interactions and launch configuration
 
-- `src/components/CoffeeExperience.tsx`: name, copy, menu interface, chapter content, café information.
-- `src/lib/brew.ts`: chapter names, colors, example menu items/prices, procedural brewing timeline.
-- `src/lib/photo-story.ts`: image mapping, framing, zoom, and section-position mapping.
-- `src/components/PhotoScene.tsx`: depth shader and texture loading.
-- `src/app/globals.css`: typography, color treatment, layouts and responsive styles.
-- `src/app/layout.tsx`: title, description and icons. Search indexing is intentionally disabled for this concept; replace business details before removing `robots: { index: false, follow: false }`.
+The menu has category filters, milk selection, an in-memory bag, quantities and totals. Nothing is sent and no payment service is connected. Sample prices are in USD. Address, hours, map and contact details are unset in the shop configuration; visible copy says coming soon. Fill them with verified business information before launch. Search indexing remains disabled for this concept.
 
-Daybreak is a fictional concept name. Menu prices are illustrative USD. No real location, opening hours, booking, ordering, email submission or payment service is connected. No testimonials or customer claims are fabricated.
+Existing menu photographs are illustrative and reused for some products; they are not exact photos of every listed item. Generated scenery represents a concept cafe, not an existing verified business.
 
-## Assets
+## Verification
 
-Original generated PNGs: `assets/source/`.
-Web-ready desktop/mobile images and depth maps: `public/images/journey/`.
-Supporting café photograph: `public/images/cafe-interior.webp` (source PNG beside it).
-Generation prompts and asset lineage: `docs/asset-prompts.md`.
-
-Regenerate optimized files after changing source PNGs:
-
-```sh
-npm run assets
-```
-
-This uses Sharp, supplied by the Next.js installation. Image sources and generation history remain local. The source images are intentionally outside `public/` to avoid downloading production-sized PNGs in the website.
-
-## Validation
-
-```sh
-npm run typecheck
-npm test
-npm run build
-```
-
-Tests cover variable-height chapter alignment, photo timeline bounds, reverse scrolling determinism, brewing order, and final process completion. Browser checks cover responsive framing and user interactions. Windows sandbox policies may require permission to launch Next.js/test worker processes.
-
-Built locally; no Git commits, pushes, or deployment have been performed.
+`npm test` includes boundary, reverse and reduced-motion checks for the edit and verifies all 48 assets. `npm run build` checks the production build. Browser review separately checks layout, frame advancement and reversal, no canvas, menu interaction, reduced motion and runtime errors. 60fps across devices has not been benchmarked or guaranteed.

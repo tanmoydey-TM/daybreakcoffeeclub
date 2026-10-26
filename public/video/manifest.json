@@ -1,0 +1,16 @@
+[
+  {
+    "name": "espresso",
+    "duration": 12,
+    "src": "/video/espresso-scrub.mp4",
+    "poster": "/video/espresso-poster.webp",
+    "keyframeInterval": 1
+  },
+  {
+    "name": "latte",
+    "duration": 12,
+    "src": "/video/latte-scrub.mp4",
+    "poster": "/video/latte-poster.webp",
+    "keyframeInterval": 1
+  }
+]

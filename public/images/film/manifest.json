@@ -1,0 +1,338 @@
+[
+  {
+    "shot": "door",
+    "frame": 0,
+    "src": "/images/film/door-00.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 1,
+    "src": "/images/film/door-01.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 2,
+    "src": "/images/film/door-02.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 3,
+    "src": "/images/film/door-03.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 4,
+    "src": "/images/film/door-04.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 5,
+    "src": "/images/film/door-05.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 6,
+    "src": "/images/film/door-06.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 7,
+    "src": "/images/film/door-07.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 8,
+    "src": "/images/film/door-08.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 9,
+    "src": "/images/film/door-09.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 10,
+    "src": "/images/film/door-10.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 11,
+    "src": "/images/film/door-11.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 12,
+    "src": "/images/film/door-12.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 13,
+    "src": "/images/film/door-13.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 14,
+    "src": "/images/film/door-14.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "door",
+    "frame": 15,
+    "src": "/images/film/door-15.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 0,
+    "src": "/images/film/espresso-00.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 1,
+    "src": "/images/film/espresso-01.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 2,
+    "src": "/images/film/espresso-02.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 3,
+    "src": "/images/film/espresso-03.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 4,
+    "src": "/images/film/espresso-04.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 5,
+    "src": "/images/film/espresso-05.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 6,
+    "src": "/images/film/espresso-06.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 7,
+    "src": "/images/film/espresso-07.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 8,
+    "src": "/images/film/espresso-08.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 9,
+    "src": "/images/film/espresso-09.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 10,
+    "src": "/images/film/espresso-10.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 11,
+    "src": "/images/film/espresso-11.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 12,
+    "src": "/images/film/espresso-12.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 13,
+    "src": "/images/film/espresso-13.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 14,
+    "src": "/images/film/espresso-14.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "espresso",
+    "frame": 15,
+    "src": "/images/film/espresso-15.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 0,
+    "src": "/images/film/serve-00.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 1,
+    "src": "/images/film/serve-01.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 2,
+    "src": "/images/film/serve-02.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 3,
+    "src": "/images/film/serve-03.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 4,
+    "src": "/images/film/serve-04.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 5,
+    "src": "/images/film/serve-05.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 6,
+    "src": "/images/film/serve-06.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 7,
+    "src": "/images/film/serve-07.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 8,
+    "src": "/images/film/serve-08.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 9,
+    "src": "/images/film/serve-09.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 10,
+    "src": "/images/film/serve-10.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 11,
+    "src": "/images/film/serve-11.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 12,
+    "src": "/images/film/serve-12.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 13,
+    "src": "/images/film/serve-13.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 14,
+    "src": "/images/film/serve-14.webp",
+    "width": 412,
+    "height": 232
+  },
+  {
+    "shot": "serve",
+    "frame": 15,
+    "src": "/images/film/serve-15.webp",
+    "width": 412,
+    "height": 232
+  }
+]
